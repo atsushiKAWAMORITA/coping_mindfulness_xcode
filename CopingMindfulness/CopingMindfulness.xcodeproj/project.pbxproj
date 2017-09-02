@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D708F1A1D18B3150007A51F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708F191D18B3150007A51F /* AppDelegate.swift */; };
+		0D708F1C1D18B3150007A51F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708F1B1D18B3150007A51F /* ViewController.swift */; };
+		0D708F1F1D18B3150007A51F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D708F1D1D18B3150007A51F /* Main.storyboard */; };
+		0D708F221D18B3150007A51F /* CopingMindfulness.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D708F201D18B3150007A51F /* CopingMindfulness.xcdatamodeld */; };
+		0D708F241D18B3150007A51F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D708F231D18B3150007A51F /* Assets.xcassets */; };
+		0D708F271D18B3150007A51F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D708F251D18B3150007A51F /* LaunchScreen.storyboard */; };
+		0D708F321D18B3150007A51F /* CopingMindfulnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708F311D18B3150007A51F /* CopingMindfulnessTests.swift */; };
+		0D708F3D1D18B3150007A51F /* CopingMindfulnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708F3C1D18B3150007A51F /* CopingMindfulnessUITests.swift */; };
+		0D708F4B1D18CA260007A51F /* CopingStressorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708F4A1D18CA260007A51F /* CopingStressorViewController.swift */; };
+		0D708F4D1D18CA640007A51F /* CopingRelaxationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708F4C1D18CA640007A51F /* CopingRelaxationListViewController.swift */; };
+		0D708F4F1D18CAA70007A51F /* MindfulnessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708F4E1D18CAA70007A51F /* MindfulnessViewController.swift */; };
+		0D708F5C1D18CD2D0007A51F /* StressorContents+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708F581D18CD2D0007A51F /* StressorContents+CoreDataProperties.swift */; };
+		0D708F5D1D18CD2D0007A51F /* StressorContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708F591D18CD2D0007A51F /* StressorContents.swift */; };
+		0D708F5E1D18CD2D0007A51F /* RelaxationContents+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708F5A1D18CD2D0007A51F /* RelaxationContents+CoreDataProperties.swift */; };
+		0D708F5F1D18CD2D0007A51F /* RelaxationContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708F5B1D18CD2D0007A51F /* RelaxationContents.swift */; };
+		0D708F661D18D4390007A51F /* MindfulnessContents+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708F641D18D4390007A51F /* MindfulnessContents+CoreDataProperties.swift */; };
+		0D708F671D18D4390007A51F /* MindfulnessContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708F651D18D4390007A51F /* MindfulnessContents.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D708F2E1D18B3150007A51F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D708F0E1D18B3140007A51F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D708F151D18B3140007A51F;
+			remoteInfo = CopingMindfulness;
+		};
+		0D708F391D18B3150007A51F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D708F0E1D18B3140007A51F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D708F151D18B3140007A51F;
+			remoteInfo = CopingMindfulness;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D708F161D18B3140007A51F /* CopingMindfulness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CopingMindfulness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D708F191D18B3150007A51F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D708F1B1D18B3150007A51F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D708F1E1D18B3150007A51F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D708F211D18B3150007A51F /* CopingMindfulness.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CopingMindfulness.xcdatamodel; sourceTree = "<group>"; };
+		0D708F231D18B3150007A51F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D708F261D18B3150007A51F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D708F281D18B3150007A51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D708F2D1D18B3150007A51F /* CopingMindfulnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopingMindfulnessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D708F311D18B3150007A51F /* CopingMindfulnessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopingMindfulnessTests.swift; sourceTree = "<group>"; };
+		0D708F331D18B3150007A51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D708F381D18B3150007A51F /* CopingMindfulnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopingMindfulnessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D708F3C1D18B3150007A51F /* CopingMindfulnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopingMindfulnessUITests.swift; sourceTree = "<group>"; };
+		0D708F3E1D18B3150007A51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D708F4A1D18CA260007A51F /* CopingStressorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CopingStressorViewController.swift; sourceTree = "<group>"; };
+		0D708F4C1D18CA640007A51F /* CopingRelaxationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CopingRelaxationListViewController.swift; sourceTree = "<group>"; };
+		0D708F4E1D18CAA70007A51F /* MindfulnessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MindfulnessViewController.swift; sourceTree = "<group>"; };
+		0D708F581D18CD2D0007A51F /* StressorContents+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StressorContents+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0D708F591D18CD2D0007A51F /* StressorContents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StressorContents.swift; sourceTree = "<group>"; };
+		0D708F5A1D18CD2D0007A51F /* RelaxationContents+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RelaxationContents+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0D708F5B1D18CD2D0007A51F /* RelaxationContents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelaxationContents.swift; sourceTree = "<group>"; };
+		0D708F641D18D4390007A51F /* MindfulnessContents+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MindfulnessContents+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0D708F651D18D4390007A51F /* MindfulnessContents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MindfulnessContents.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D708F131D18B3140007A51F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D708F2A1D18B3150007A51F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D708F351D18B3150007A51F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D708F0D1D18B3140007A51F = {
+			isa = PBXGroup;
+			children = (
+				0D708F181D18B3150007A51F /* CopingMindfulness */,
+				0D708F301D18B3150007A51F /* CopingMindfulnessTests */,
+				0D708F3B1D18B3150007A51F /* CopingMindfulnessUITests */,
+				0D708F171D18B3140007A51F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D708F171D18B3140007A51F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D708F161D18B3140007A51F /* CopingMindfulness.app */,
+				0D708F2D1D18B3150007A51F /* CopingMindfulnessTests.xctest */,
+				0D708F381D18B3150007A51F /* CopingMindfulnessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D708F181D18B3150007A51F /* CopingMindfulness */ = {
+			isa = PBXGroup;
+			children = (
+				0D708F191D18B3150007A51F /* AppDelegate.swift */,
+				0D708F1B1D18B3150007A51F /* ViewController.swift */,
+				0D708F1D1D18B3150007A51F /* Main.storyboard */,
+				0D708F231D18B3150007A51F /* Assets.xcassets */,
+				0D708F251D18B3150007A51F /* LaunchScreen.storyboard */,
+				0D708F281D18B3150007A51F /* Info.plist */,
+				0D708F201D18B3150007A51F /* CopingMindfulness.xcdatamodeld */,
+				0D708F4A1D18CA260007A51F /* CopingStressorViewController.swift */,
+				0D708F4C1D18CA640007A51F /* CopingRelaxationListViewController.swift */,
+				0D708F4E1D18CAA70007A51F /* MindfulnessViewController.swift */,
+				0D708F581D18CD2D0007A51F /* StressorContents+CoreDataProperties.swift */,
+				0D708F591D18CD2D0007A51F /* StressorContents.swift */,
+				0D708F5A1D18CD2D0007A51F /* RelaxationContents+CoreDataProperties.swift */,
+				0D708F5B1D18CD2D0007A51F /* RelaxationContents.swift */,
+				0D708F641D18D4390007A51F /* MindfulnessContents+CoreDataProperties.swift */,
+				0D708F651D18D4390007A51F /* MindfulnessContents.swift */,
+			);
+			path = CopingMindfulness;
+			sourceTree = "<group>";
+		};
+		0D708F301D18B3150007A51F /* CopingMindfulnessTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D708F311D18B3150007A51F /* CopingMindfulnessTests.swift */,
+				0D708F331D18B3150007A51F /* Info.plist */,
+			);
+			path = CopingMindfulnessTests;
+			sourceTree = "<group>";
+		};
+		0D708F3B1D18B3150007A51F /* CopingMindfulnessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D708F3C1D18B3150007A51F /* CopingMindfulnessUITests.swift */,
+				0D708F3E1D18B3150007A51F /* Info.plist */,
+			);
+			path = CopingMindfulnessUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D708F151D18B3140007A51F /* CopingMindfulness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D708F411D18B3150007A51F /* Build configuration list for PBXNativeTarget "CopingMindfulness" */;
+			buildPhases = (
+				0D708F121D18B3140007A51F /* Sources */,
+				0D708F131D18B3140007A51F /* Frameworks */,
+				0D708F141D18B3140007A51F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CopingMindfulness;
+			productName = CopingMindfulness;
+			productReference = 0D708F161D18B3140007A51F /* CopingMindfulness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D708F2C1D18B3150007A51F /* CopingMindfulnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D708F441D18B3150007A51F /* Build configuration list for PBXNativeTarget "CopingMindfulnessTests" */;
+			buildPhases = (
+				0D708F291D18B3150007A51F /* Sources */,
+				0D708F2A1D18B3150007A51F /* Frameworks */,
+				0D708F2B1D18B3150007A51F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D708F2F1D18B3150007A51F /* PBXTargetDependency */,
+			);
+			name = CopingMindfulnessTests;
+			productName = CopingMindfulnessTests;
+			productReference = 0D708F2D1D18B3150007A51F /* CopingMindfulnessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D708F371D18B3150007A51F /* CopingMindfulnessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D708F471D18B3150007A51F /* Build configuration list for PBXNativeTarget "CopingMindfulnessUITests" */;
+			buildPhases = (
+				0D708F341D18B3150007A51F /* Sources */,
+				0D708F351D18B3150007A51F /* Frameworks */,
+				0D708F361D18B3150007A51F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D708F3A1D18B3150007A51F /* PBXTargetDependency */,
+			);
+			name = CopingMindfulnessUITests;
+			productName = CopingMindfulnessUITests;
+			productReference = 0D708F381D18B3150007A51F /* CopingMindfulnessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D708F0E1D18B3140007A51F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Atsushi Kawamorita";
+				TargetAttributes = {
+					0D708F151D18B3140007A51F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 75398V2MSN;
+						LastSwiftMigration = 0800;
+					};
+					0D708F2C1D18B3150007A51F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 75398V2MSN;
+						LastSwiftMigration = 0800;
+						TestTargetID = 0D708F151D18B3140007A51F;
+					};
+					0D708F371D18B3150007A51F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 75398V2MSN;
+						LastSwiftMigration = 0800;
+						TestTargetID = 0D708F151D18B3140007A51F;
+					};
+				};
+			};
+			buildConfigurationList = 0D708F111D18B3140007A51F /* Build configuration list for PBXProject "CopingMindfulness" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D708F0D1D18B3140007A51F;
+			productRefGroup = 0D708F171D18B3140007A51F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D708F151D18B3140007A51F /* CopingMindfulness */,
+				0D708F2C1D18B3150007A51F /* CopingMindfulnessTests */,
+				0D708F371D18B3150007A51F /* CopingMindfulnessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D708F141D18B3140007A51F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D708F271D18B3150007A51F /* LaunchScreen.storyboard in Resources */,
+				0D708F241D18B3150007A51F /* Assets.xcassets in Resources */,
+				0D708F1F1D18B3150007A51F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D708F2B1D18B3150007A51F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D708F361D18B3150007A51F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D708F121D18B3140007A51F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D708F5C1D18CD2D0007A51F /* StressorContents+CoreDataProperties.swift in Sources */,
+				0D708F4D1D18CA640007A51F /* CopingRelaxationListViewController.swift in Sources */,
+				0D708F4F1D18CAA70007A51F /* MindfulnessViewController.swift in Sources */,
+				0D708F5E1D18CD2D0007A51F /* RelaxationContents+CoreDataProperties.swift in Sources */,
+				0D708F221D18B3150007A51F /* CopingMindfulness.xcdatamodeld in Sources */,
+				0D708F5D1D18CD2D0007A51F /* StressorContents.swift in Sources */,
+				0D708F671D18D4390007A51F /* MindfulnessContents.swift in Sources */,
+				0D708F5F1D18CD2D0007A51F /* RelaxationContents.swift in Sources */,
+				0D708F661D18D4390007A51F /* MindfulnessContents+CoreDataProperties.swift in Sources */,
+				0D708F4B1D18CA260007A51F /* CopingStressorViewController.swift in Sources */,
+				0D708F1C1D18B3150007A51F /* ViewController.swift in Sources */,
+				0D708F1A1D18B3150007A51F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D708F291D18B3150007A51F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D708F321D18B3150007A51F /* CopingMindfulnessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D708F341D18B3150007A51F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D708F3D1D18B3150007A51F /* CopingMindfulnessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D708F2F1D18B3150007A51F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D708F151D18B3140007A51F /* CopingMindfulness */;
+			targetProxy = 0D708F2E1D18B3150007A51F /* PBXContainerItemProxy */;
+		};
+		0D708F3A1D18B3150007A51F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D708F151D18B3140007A51F /* CopingMindfulness */;
+			targetProxy = 0D708F391D18B3150007A51F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D708F1D1D18B3150007A51F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D708F1E1D18B3150007A51F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D708F251D18B3150007A51F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D708F261D18B3150007A51F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D708F3F1D18B3150007A51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D708F401D18B3150007A51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D708F421D18B3150007A51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CopingMindfulness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.AK.CopingMindfulness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0D708F431D18B3150007A51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CopingMindfulness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.AK.CopingMindfulness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0D708F451D18B3150007A51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CopingMindfulnessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.AK.CopingMindfulnessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CopingMindfulness.app/CopingMindfulness";
+			};
+			name = Debug;
+		};
+		0D708F461D18B3150007A51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CopingMindfulnessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.AK.CopingMindfulnessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CopingMindfulness.app/CopingMindfulness";
+			};
+			name = Release;
+		};
+		0D708F481D18B3150007A51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CopingMindfulnessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.AK.CopingMindfulnessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CopingMindfulness;
+			};
+			name = Debug;
+		};
+		0D708F491D18B3150007A51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CopingMindfulnessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.AK.CopingMindfulnessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CopingMindfulness;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D708F111D18B3140007A51F /* Build configuration list for PBXProject "CopingMindfulness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D708F3F1D18B3150007A51F /* Debug */,
+				0D708F401D18B3150007A51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D708F411D18B3150007A51F /* Build configuration list for PBXNativeTarget "CopingMindfulness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D708F421D18B3150007A51F /* Debug */,
+				0D708F431D18B3150007A51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D708F441D18B3150007A51F /* Build configuration list for PBXNativeTarget "CopingMindfulnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D708F451D18B3150007A51F /* Debug */,
+				0D708F461D18B3150007A51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D708F471D18B3150007A51F /* Build configuration list for PBXNativeTarget "CopingMindfulnessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D708F481D18B3150007A51F /* Debug */,
+				0D708F491D18B3150007A51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0D708F201D18B3150007A51F /* CopingMindfulness.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0D708F211D18B3150007A51F /* CopingMindfulness.xcdatamodel */,
+			);
+			currentVersion = 0D708F211D18B3150007A51F /* CopingMindfulness.xcdatamodel */;
+			path = CopingMindfulness.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0D708F0E1D18B3140007A51F /* Project object */;
+}

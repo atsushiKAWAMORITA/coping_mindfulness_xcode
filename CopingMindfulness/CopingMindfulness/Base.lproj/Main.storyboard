@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CopingMindfulness" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wfh-B1-aSH">
+                                <rect key="frame" x="48" y="82" width="222" height="49"/>
+                                <color key="backgroundColor" red="0.21568627450980393" green="0.36862745098039218" blue="0.56470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <state key="normal" title="Coping">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="eTw-p9-JxH" kind="modal" id="A7v-4Z-ynM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J12-WO-ZyL">
+                                <rect key="frame" x="48" y="148" width="222" height="49"/>
+                                <color key="backgroundColor" red="0.98431372549019602" green="0.396078431372549" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <state key="normal" title="Mindfulness">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="njP-et-HSJ" kind="modal" id="qTO-0W-js6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="J12-WO-ZyL" firstAttribute="top" secondItem="wfh-B1-aSH" secondAttribute="bottom" constant="130" id="8P3-2G-nJI"/>
+                            <constraint firstItem="J12-WO-ZyL" firstAttribute="top" secondItem="wfh-B1-aSH" secondAttribute="bottom" constant="20" id="jss-06-fBV"/>
+                            <constraint firstItem="wfh-B1-aSH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="130" id="pFV-K6-Byq"/>
+                            <constraint firstItem="wfh-B1-aSH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="vTG-Ko-9U0"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1730" y="311"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="OeB-cA-Xjg">
+            <objects>
+                <viewController id="o78-b3-JoK" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NUQ-5g-bii"/>
+                        <viewControllerLayoutGuide type="bottom" id="zpN-rg-wXE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Sat-AK-vcg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Aaf-Rk-0Kf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="893" y="1847"/>
+        </scene>
+        <!--Stressor-->
+        <scene sceneID="wHE-1m-Jsj">
+            <objects>
+                <viewController id="mTw-40-0NC" customClass="CopingStressorViewController" customModule="CopingMindfulness" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Kta-Xp-qOm"/>
+                        <viewControllerLayoutGuide type="bottom" id="XE4-71-pP0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EZp-jN-b8u">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eR8-dm-0U8">
+                                <rect key="frame" x="20" y="530" width="280" height="30"/>
+                                <state key="normal" title="Coping Lists">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ULf-l4-uND" kind="modal" id="Bpg-6u-ztL"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LUL-Cv-DUM">
+                                <rect key="frame" x="20" y="72" width="280" height="450"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Stressor" id="VhR-V9-hM1" colorLabel="IBBuiltInLabel-Gray">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="fxe-g5-I0f"/>
+                        <barButtonItem key="rightBarButtonItem" title="Add" id="XKR-Hj-EqR">
+                            <connections>
+                                <action selector="addData:" destination="mTw-40-0NC" id="kFC-t8-Xzn"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="BarButtonAdd" destination="XKR-Hj-EqR" id="n5l-Ad-C08"/>
+                        <outlet property="BarButtonEdit" destination="XKR-Hj-EqR" id="dCc-ql-8ne"/>
+                        <outlet property="tableViewStressorList" destination="LUL-Cv-DUM" id="Zyc-qh-TuR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="33E-we-wst" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1285" y="1862"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="O9U-dx-Jva">
+            <objects>
+                <viewController id="ULf-l4-uND" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qk3-yw-AtN"/>
+                        <viewControllerLayoutGuide type="bottom" id="y7y-ZZ-yGC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jMa-Lo-eSS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lr0-7C-Q7T">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <color key="barTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <navigationItem title="Title" id="zEE-VJ-Z0g">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="nry-OJ-uhE">
+                                            <connections>
+                                                <segue destination="eTw-p9-JxH" kind="modal" id="fsc-xk-Abs"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xvo-WT-g7g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2017" y="1862"/>
+        </scene>
+        <!--Mindfulness View Controller-->
+        <scene sceneID="cSD-RJ-mqY">
+            <objects>
+                <viewController id="njP-et-HSJ" customClass="MindfulnessViewController" customModule="CopingMindfulness" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iqp-au-ahi"/>
+                        <viewControllerLayoutGuide type="bottom" id="Aoj-YU-pNC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tBh-4J-X1t">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="60" minValue="50" maxValue="90" translatesAutoresizingMaskIntoConstraints="NO" id="Jlf-yj-Fi3">
+                                <rect key="frame" x="25" y="110" width="118" height="31"/>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="h31-qf-i1x">
+                                <rect key="frame" x="25" y="168" width="118" height="31"/>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5gI-Ip-Ux4">
+                                <rect key="frame" x="27" y="139" width="114" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Volume" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gTC-5I-sVM">
+                                <rect key="frame" x="27" y="201" width="114" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Interval" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tVR-fM-4ER">
+                                <rect key="frame" x="27" y="81" width="114" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="BRS-qH-l5z">
+                                <rect key="frame" x="25" y="230" width="118" height="31"/>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pzr-AC-UV1">
+                                <rect key="frame" x="27" y="276" width="114" height="30"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.59999999999999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ButtonStartTouchDown:" destination="njP-et-HSJ" eventType="touchDown" id="NwJ-LS-CNE"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yfg-lp-AqS">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <color key="barTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Mindfulness" id="A8y-IE-oq6">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="Pw3-Ft-cbj">
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="modal" id="T4y-nr-yWF"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="ButtonStart" destination="pzr-AC-UV1" id="gS4-jE-Jcq"/>
+                        <outlet property="LabelInterval" destination="tVR-fM-4ER" id="gWN-OG-TlQ"/>
+                        <outlet property="LabelRate" destination="5gI-Ip-Ux4" id="GAG-ht-1nr"/>
+                        <outlet property="LabelVolume" destination="gTC-5I-sVM" id="mT7-aH-IG5"/>
+                        <outlet property="SliderInterval" destination="Jlf-yj-Fi3" id="dRU-wx-7jt"/>
+                        <outlet property="SliderRate" destination="h31-qf-i1x" id="f0g-mk-X4z"/>
+                        <outlet property="SliderVolume" destination="BRS-qH-l5z" id="59m-Cz-YxA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R7f-6Q-TTl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2177" y="311"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5oc-WG-RWq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eTw-p9-JxH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="drC-s8-fVX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="mTw-40-0NC" kind="relationship" relationship="rootViewController" id="D36-6l-L4f"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yrx-HF-8d2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1730" y="1014"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="fsc-xk-Abs"/>
+    </inferredMetricsTieBreakers>
+</document>
